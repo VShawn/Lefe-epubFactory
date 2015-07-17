@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<SerializableDictionaryOfStringString>
+  <SerializableDictionary>
+    <key>
+      <string>插图后带字</string>
+    </key>
+    <value>
+      <string>&lt;div class='duokan-image-single illus'&gt;&lt;img alt='[%图片名%]' src='../Images/[%图片名%]' /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;1111</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>插图后不带字</string>
+    </key>
+    <value>
+      <string>&lt;div class='duokan-image-single illus'&gt;&lt;img alt='[%图片名%]' src='../Images/[%图片名%]' /&gt;&lt;/div&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>上注</string>
+    </key>
+    <value>
+      <string>&lt;ruby&gt;[%注释词%]&lt;rt&gt;[%上注%]&lt;/rt&gt;&lt;/ruby&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>下注</string>
+    </key>
+    <value>
+      <string>&lt;p class='postil'&gt;[%下注%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>尾注1</string>
+    </key>
+    <value>
+      <string>&lt;a class='duokan-footnote no-d' epub:type='noteref' href='#n[%编号%]' id='A_[%编号%]'&gt;&lt;sup&gt;&lt;img alt='note' class='footnote' src='../Images/note.png' /&gt;&lt;/sup&gt;&lt;/a&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>尾注2</string>
+    </key>
+    <value>
+      <string>&lt;aside epub:type='footnote' id='n[%编号%]'&gt;
+&lt;ol class='duokan-footnote-content'&gt;
+&lt;li class='duokan-footnote-item' id='n[%编号%]' value='[%编号%]'&gt;[%尾注%]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/aside&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>制作信息行</string>
+    </key>
+    <value>
+      <string>&lt;p class='message'&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>简介行</string>
+    </key>
+    <value>
+      <string>&lt;p&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>目录行</string>
+    </key>
+    <value>
+      <string>&lt;p class='mulu'&gt;&lt;a class='no-d' href='../Text/[%章节文件%]'&gt;[%章节名%]&lt;/a&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>正文行</string>
+    </key>
+    <value>
+      <string>&lt;p&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>正文标题</string>
+    </key>
+    <value>
+      <string>&lt;h4&gt;[%标题%]&lt;/h4&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>尾注开关</string>
+    </key>
+    <value>
+      <string>1</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>尾注2位置</string>
+    </key>
+    <value>
+      <string>1</string>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringString>

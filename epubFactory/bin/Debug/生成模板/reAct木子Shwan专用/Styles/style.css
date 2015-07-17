@@ -1,0 +1,405 @@
+/*预设文本样式*/
+
+body{
+	padding: 0%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 130%;
+	text-align: justify;
+}
+h1{
+	line-height: 120%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.65em;
+	margin-top: 0.1em;
+	margin-bottom: 0.4em;
+}
+h2{
+	line-height: 120%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;a
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+}
+h3{
+	font-size: 0.95em;
+	line-height: 120%;
+	text-align: center;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+h4{
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 1.2em;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+div{
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+p{
+	text-indent: 2em;
+	display: block;
+	line-height: 1.3em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+
+
+
+/*图片相关*/
+
+.illus{
+	text-indent: 0em;
+	text-align: center;
+}
+.cover{
+	margin: 0em;
+	padding: 0em;
+	text-indent: 0em;
+	text-align: center;
+}
+.coverborder{
+	border-style: none solid none solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+
+
+
+/*logo相关*/
+
+.logo-img{
+	text-align: center;
+	margin-top: 30%;
+	margin-bottom: 1em;
+}
+.maker{
+	font-weight: bold;
+	text-indent: 0em;
+	text-align: center;
+}
+.logo-width{
+	width:100%;
+}
+.logo-font{
+    margin-top: -0.3em;
+	text-indent: 0em;
+}
+.cut-line{
+	text-indent: 0em;
+	line-height: 0%;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+
+
+
+/*预设格式相关样式*/
+
+.right{
+	text-indent: 0em;
+	text-align: right;
+}
+.left{
+	text-indent: 0em;
+	text-align: left;
+}
+.center{
+	text-indent: 0em;
+    text-align: center;
+}
+.zin{
+    text-indent: 0em;
+}
+.bold{
+    font-weight: bold;
+}
+.stress{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.author{
+	font-size: 1.2em;
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 1em;
+}
+.dash-break{
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.no-d{
+	text-decoration: none;
+}
+.bc{
+	border-collapse: collapse;
+}
+.dash-break{
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.message{
+	text-indent: 0em;
+	line-height: 1.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+.meg{
+	font-size: 1.3em;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+
+
+/*文字大小*/
+
+.em05{
+    font-size: 0.5em;
+}
+.em06{
+    font-size: 0.6em;
+}
+.em07{
+    font-size: 0.7em;
+}
+.em08{
+    font-size: 0.8em;
+}
+.em09{
+    font-size: 0.9em;
+}
+.em11{
+    font-size: 1.1em;
+}
+.em12{
+    font-size: 1.2em;
+}
+.em13{
+    font-size: 1.3em;
+}
+.em14{
+    font-size: 1.4em;
+}
+.em15{
+    font-size: 1.5em;
+}
+.em16{
+    font-size: 1.6em;
+}
+.em17{
+    font-size: 1.7em;
+}
+.em18{
+    font-size: 1.8em;
+}
+.em19{
+    font-size: 1.9em;
+}
+.em20{
+    font-size: 2em;
+}
+
+
+
+
+/*预设目录样式*/
+
+.contents{
+	text-indent: 0em;
+	text-align: center;
+    border-bottom: 0.1em dotted #000000;
+    padding: 0.5em 0 0.4em 0;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+.mulu{
+	text-indent: 0em;
+	text-align: center;
+}
+
+
+
+
+/*预设title样式*/
+
+.title-width{
+    width: 100%;
+}
+.bb{
+    border-bottom: 3px solid #000000;
+}
+.blb{
+    border-left: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+}
+.bl{
+    border-left: 3px solid #000000;
+}
+.br{
+    border-right: 3px solid #000000;
+}
+.brt{
+    border-right: 3px solid #000000;
+    border-top: 3px solid #000000;
+}
+.bt{
+    border-top: 3px solid #000000;
+}
+
+
+
+
+/*图片允许放大*/
+
+/*
+html代码：
+
+<div class="duokan-image-single illus"><img alt="图片名" src="../Images/图片名.jpg" /></div>
+*/
+
+
+
+
+/*预设注释样式*/
+
+.footnote {
+    height: 1.2em!important;
+    width: auto;
+    border:0;
+}
+.duokan-footnote {
+    height: 1.2em!important;
+    width: auto;
+    border: 0;
+}
+.duokan-footnote-item {
+    text-indent: 0em;
+    font-family: "DK-SONGTI";
+    text-shadow: 0em 0em 0.1em #000000;
+    font-size: 0.9em;
+    text-align: left;
+}
+sup {
+    font-size: 0.75em;
+    line-height: 1.2;
+    vertical-align: super!important;
+}
+
+/*
+
+说明：由于4.0的ibook无法使用<sup>标签，故将其删掉，经测试可以在ios8.0以上相同正常弹出。
+html代码：
+
+<a class="duokan-footnote no-d" epub:type="noteref" href="#n1" id="A_1"><img alt="note" class="footnote" src="../Images/note.png" /></a>
+
+    <aside epub:type="footnote" id="n1">
+      <ol class="duokan-footnote-content">
+        <li class="duokan-footnote-item" id="n1" value="1">注：此处填写注释内容</li>
+      </ol>
+    </aside>
+
+代码说明：
+1. 请将「href="n1"」「id="n1"」「value="1"」这三段代码中的数字改为该注释的顺序
+例：第3个注释的该段代码为「href="n3"」「id="n3"」「value="3"」
+2. 「注：」根据不同情况可以改为其它文字，例如译者名
+
+
+ibook4.0版注释
+
+<a epub:type="noteref" href="#d1">[注]</a>
+    <aside epub:type="footnote" id="d1">
+      <p>这里是注释内容哦</p>
+    </aside>
+id系列为了不混乱统一使用d系列，即d1,d2.......
+*/
+
+
+/*以下填写自定义css样式*/
+
+
+/************************幻想Shawn 自定义************************/
+a {color: #0883B2;text-decoration:none;}
+a:hover {color:#D54E21;}
+/*文字*/
+.black{color:#000;}
+.white{color:#fff;}
+/*行间距*/
+.lh00{	line-height:0em;}
+.lh01{	line-height:0.1em;}
+.lh02{	line-height:0.2em;}
+.lh03{	line-height:0.3em;}
+.lh04{	line-height:0.4em;}
+.lh05{	line-height:0.5em;}
+.lh06{	line-height:0.6em;}
+.lh07{	line-height:0.7em;}
+.lh08{	line-height:0.8em;}
+.lh09{	line-height:0.9em;}
+.lh10{	line-height:1em;}
+.lh11{	line-height:1.1em;}
+.lh12{	line-height:1.2em;}
+.lh13{	line-height:1.3em;}
+.lh14{	line-height:1.4em;}
+.lh15{	line-height:1.5em;}
+.lh16{	line-height:1.6em;}
+.lh17{	line-height:1.7em;}
+.lh18{	line-height:1.8em;}
+.lh19{	line-height:1.9em;}
+.lh20{	line-height:2em;}
+/*圆形框*/
+.cycle
+{
+    border-style:none;
+    border-radius:60%;
+    width:3.3em;
+    height:3.3em;
+    padding:4px;
+    text-algin: center;
+	background-color:#E5007F; 
+}
+/*旋转*/
+.rotate01{-webkit-transform: rotate(01deg);transform: rotate(01deg);}
+.rotate02{-webkit-transform: rotate(02deg);transform: rotate(02deg);}
+.rotate03{-webkit-transform: rotate(03deg);transform: rotate(03deg);}
+.rotate04{-webkit-transform: rotate(04deg);transform: rotate(04deg);}
+.rotate05{-webkit-transform: rotate(05deg);transform: rotate(05deg);}
+.rotate06{-webkit-transform: rotate(06deg);transform: rotate(06deg);}
+.rotate07{-webkit-transform: rotate(07deg);transform: rotate(07deg);}
+.rotate08{-webkit-transform: rotate(08deg);transform: rotate(08deg);}
+.rotate09{-webkit-transform: rotate(09deg);transform: rotate(09deg);}
+.rotate10{-webkit-transform: rotate(10deg);transform: rotate(10deg);}
+.rotate-01{-webkit-transform: rotate(-01deg);transform: rotate(-01deg);}
+.rotate-02{-webkit-transform: rotate(-02deg);transform: rotate(-02deg);}
+.rotate-03{-webkit-transform: rotate(-03deg);transform: rotate(-03deg);}
+.rotate-04{-webkit-transform: rotate(-04deg);transform: rotate(-04deg);}
+.rotate-05{-webkit-transform: rotate(-05deg);transform: rotate(-05deg);}
+.rotate-06{-webkit-transform: rotate(-06deg);transform: rotate(-06deg);}
+.rotate-07{-webkit-transform: rotate(-07deg);transform: rotate(-07deg);}
+.rotate-08{-webkit-transform: rotate(-08deg);transform: rotate(-08deg);}
+.rotate-09{-webkit-transform: rotate(-09deg);transform: rotate(-09deg);}
+.rotate-10{-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
+
+
+
+/*以下填写自定义css样式*/

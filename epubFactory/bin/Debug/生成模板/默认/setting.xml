@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<SerializableDictionaryOfStringString>
+  <SerializableDictionary>
+    <key>
+      <string>正文标题</string>
+    </key>
+    <value>
+      <string>&lt;h4&gt;[%标题%]&lt;/h4&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>正文行</string>
+    </key>
+    <value>
+      <string>&lt;p&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>插图后带字</string>
+    </key>
+    <value>
+      <string>&lt;div class='duokan-image-single illus'&gt;&lt;img alt='[%图片名%]' src='../Images/[%图片名%]' /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>插图后不带字</string>
+    </key>
+    <value>
+      <string>&lt;div class='duokan-image-single illus'&gt;&lt;img alt='[%图片名%]' src='../Images/[%图片名%]' /&gt;&lt;/div&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>制作信息行</string>
+    </key>
+    <value>
+      <string>&lt;p class='message'&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>目录行</string>
+    </key>
+    <value>
+      <string>&lt;p class='mulu'&gt;&lt;a class='no-d' href='../Text/[%章节文件%]'&gt;[%章节名%]&lt;/a&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringString>lt;p class='mulu'&gt;&lt;a class='no-d' href='../Text/[%章节文件%]'&gt;[%章节名%]&lt;/a&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringString>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>制作信息行</string>
+    </key>
+    <value>
+      <string>&lt;p class='message'&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>简介行</string>
+    </key>
+    <value>
+      <string>&lt;p&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>目录行</string>
+    </key>
+    <value>
+      <string>&lt;p class='mulu'&gt;&lt;a class='no-d' href='../Text/[%章节文件%]'&gt;[%章节名%]&lt;/a&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringString>-d' href='../Text/[%章节文件%]'&gt;[%章节名%]&lt;/a&gt;&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>正文行</string>
+    </key>
+    <value>
+      <string>&lt;p&gt;[%该行内容%]&lt;/p&gt;</string>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <string>正文标题</string>
+    </key>
+    <value>
+      <string>&lt;h4&gt;[%标题%]&lt;/h4&gt;</string>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfStringString>ring>

@@ -1,0 +1,473 @@
+/*预设文本样式*/
+@font-face {
+   font-family: "fzhp";
+   src:url("../Fonts/fzhp.ttf"),
+ url(../Fonts/fzhp.ttf);
+}
+@font-face {
+   font-family: "fzdh";
+   src:url("../Fonts/fzdh.ttf"),
+ url(../Fonts/fzdh.ttf);
+}
+@font-face {
+   font-family: "ltkh";
+   src:url("../Fonts/ltkh.ttf"),
+ url(../Fonts/ltkh.ttf);
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.75em;
+    text-align: justify;
+    text-align-last: left;
+    -webkit-text-align-last: left;
+    -epub-text-align-last: left;
+    vertical-align: baseline;
+    background: transparent;
+    text-indent: 0;
+}
+h1{
+	line-height: 120%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.65em;
+	margin-top: 0.1em;
+	margin-bottom: 0.4em;
+}
+h2{
+	line-height: 120%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+}
+h3{
+	font-size: 0.95em;
+	line-height: 120%;
+	text-align: center;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+h4{
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 1.2em;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+div{
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+}
+p {
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   background: transparent;
+   text-indent: 2em;
+ }
+
+
+
+
+/*图片相关*/
+
+.illus{
+	text-indent: 0em;
+	text-align: center;
+}
+.cover{
+	margin: 0em;
+	padding: 0em;
+	text-indent: 0em;
+	text-align: center;
+}
+.coverborder{
+	border-style: none solid none solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+
+
+
+/*logo相关*/
+
+.logo-img{
+	text-align: center;
+	margin-top: 30%;
+	margin-bottom: 1em;
+}
+.maker{
+	font-weight: bold;
+	text-indent: 0em;
+	text-align: center;
+}
+.logo-width{
+	width:100%;
+}
+.logo-font{
+    margin-top: -0.3em;
+	text-indent: 0em;
+}
+.cut-line{
+	text-indent: 0em;
+	line-height: 0%;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+
+
+
+/*预设格式相关样式*/
+
+.right{
+	text-indent: 0em;
+	text-align: right;
+}
+.left{
+	text-indent: 0em;
+	text-align: left;
+}
+.center{
+	text-indent: 0em;
+    text-align: center;
+}
+.zin{
+    text-indent: 0em;
+}
+.bold{
+    font-weight: bold;
+}
+.stress{
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.author{
+	font-size: 1.2em;
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 1em;
+}
+.dash-break{
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.no-d{
+    color:#000;
+	text-decoration: none;
+}
+.bc{
+	border-collapse: collapse;
+}
+.dash-break{
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.message{
+	text-indent: 0em;
+	line-height: 1.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+.meg{
+	font-size: 1.3em;
+	text-indent: 0em;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+
+
+/*文字大小*/
+
+.em05{
+    font-size: 0.5em;
+}
+.em06{
+    font-size: 0.6em;
+}
+.em07{
+    font-size: 0.7em;
+}
+.em08{
+    font-size: 0.8em;
+}
+.em09{
+    font-size: 0.9em;
+}
+.em11{
+    font-size: 1.1em;
+}
+.em12{
+    font-size: 1.2em;
+}
+.em13{
+    font-size: 1.3em;
+}
+.em14{
+    font-size: 1.4em;
+}
+.em15{
+    font-size: 1.5em;
+}
+.em16{
+    font-size: 1.6em;
+}
+.em17{
+    font-size: 1.7em;
+}
+.em18{
+    font-size: 1.8em;
+}
+.em18{
+    font-size: 1.9em;
+}
+.em20{
+    font-size: 2em;
+}
+.em25{
+    font-size: 2.5em;
+}
+.em30{
+    font-size: 3em;
+}
+.em35{
+    font-size: 3.5em;
+}
+.em40{
+    font-size: 4em;
+}
+.em45{
+    font-size: 4.5em;
+}
+.em50{
+    font-size: 5em;
+}
+.em55{
+    font-size: 5.5em;
+}
+
+
+/*预设目录样式*/
+
+.contents{
+	text-indent: 0em;
+	text-align: center;
+    padding: 0.5em 0 0.4em 0;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+}
+.mulu{
+	text-indent: 0em;
+	text-align: center;
+}
+.mulu1{
+	text-indent: 0em;
+	text-align:left;
+}
+.title-margin2{
+    margin-left:40%;
+}
+.box1{
+    font-weight:bold;
+    padding:0.2em;
+	line-height: 120%;
+	border-style: solid;
+	border-color: #222222;
+	border-width: 1px;
+    background-color:#222222;
+	margin-top: 0.1em;
+	margin-bottom: 0.6em;
+}
+.co3{
+   color:white;
+}
+
+
+
+
+/*预设title样式*/
+
+.title-margin{
+    margin-top:20%;
+    margin-left:7%;
+}
+.bold{
+    font-weight:bold;
+}
+.italic {
+    font-style: italic;
+}
+.boll{
+    border:2px #81b630 solid;
+    border-style:none solid solid none;
+    border-radius:100px;
+    width:3.5em;
+    height:3.5em;
+    padding:0.1em;
+    background-color:#81b630;
+    color:white;
+    margin-left:5px;
+}
+.margin1-1{	
+    width: 5em;
+	line-height:1em;
+}
+.margin1-2{
+    margin-top:8px;
+}
+.middle{
+  vertical-align: middle;
+}   
+.title-margin1{
+    margin-left:65%;
+    margin-top:5%;
+}
+.title-margin1-1{
+    margin-top:5%;
+    margin-left:5%;
+}
+.margin1-3{
+   margin-left:-35px;
+}
+.margin1-5{
+   margin-right:-35px;
+}
+.co1{
+    color:white;
+    text-shadow:0px 2px 4px #fe39a2;
+}
+.co2{
+    color:#f8822b;
+    text-shadow:0px 2px 4px #c7c7c7;
+}
+.width1-1{
+	width:12em;
+	line-height: 0.7em;
+}
+.width1-2{
+	line-height: 0.7em;
+}
+.zin1{
+	text-indent:0.6em;
+}
+.item{
+    line-height:1em;
+    text-align: center;
+    width:65px;
+    padding: 10px 5px;
+	margin-left:5%;
+}
+.rotate{
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);          
+ }
+.rotate1{
+   -webkit-transform: rotate(30deg);
+   transform: rotate(30deg);          
+ }
+.rotate2{
+   -webkit-transform: rotate(25deg);
+   transform: rotate(25deg);          
+ }
+.rotate3{
+   -webkit-transform: rotate(20deg);
+   transform: rotate(20deg);          
+ }
+.rotate4{
+   -webkit-transform: rotate(15deg);
+   transform: rotate(15deg);          
+ }
+.rotate5{
+   -webkit-transform: rotate(-5deg);
+   transform: rotate(-5deg);          
+ }
+.rotate6{
+   -webkit-transform: rotate(-15deg);
+   transform: rotate(-15deg);          
+ }
+.rotate7{
+   -webkit-transform: rotate(-25deg);
+   transform: rotate(-25deg);          
+ }
+.rotate8{
+   -webkit-transform: rotate(-35deg);
+   transform: rotate(-35deg);          
+ }
+.rotate9{
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);          
+ }
+.rotate10{
+   -webkit-transform: rotate(5deg);
+   transform: rotate(5deg);          
+ }
+/*图片允许放大*/
+
+/*
+html代码：
+
+<div class="duokan-image-single illus"><img alt="图片名" src="../Images/图片名.jpg" /></div>
+*/
+
+
+
+
+/*预设注释样式*/
+
+.footnote {
+    height: 1.2em!important;
+    width: auto;
+    border:0;
+}
+.duokan-footnote {
+    height: 1.2em!important;
+    width: auto;
+    border: 0;
+}
+.duokan-footnote-item {
+    text-indent: 0em;
+    font-family: "DK-SONGTI";
+    text-shadow: 0em 0em 0.1em #000000;
+    font-size: 0.9em;
+    text-align: left;
+}
+sup {
+    font-size: 0.75em;
+    line-height: 1.2;
+    vertical-align: super!important;
+}
+/*
+html代码：
+
+<a class="duokan-footnote no-d" epub:type="noteref" href="#n1" id="A_1"><sup><img alt="note" class="footnote" src="../Images/note.png" /></sup></a>
+
+    <aside epub:type="footnote" id="n1">
+      <ol class="duokan-footnote-content">
+        <li class="duokan-footnote-item" id="n1" value="1">注：此处填写注释内容</li>
+      </ol>
+    </aside>
+
+代码说明：
+1. 请将「href="n1"」「id="n1"」「value="1"」这三段代码中的数字改为该注释的顺序
+例：第3个注释的该段代码为「href="n3"」「id="n3"」「value="3"」
+2. 「注：」根据不同情况可以改为其它文字，例如译者名
+*/
+
+
+
+
+/*以下填写自定义css样式*/
